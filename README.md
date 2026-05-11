@@ -88,7 +88,7 @@ Flask Backend API
     +--> APScheduler cycle tick
 ```
 
-See [`ARCHITECTURE.md`](.wucupid_public_docs/ARCHITECTURE.md) for the detailed system design.
+See ARTCHITECTURE.md for the detailed system design.
 
 ## Matching algorithm
 
