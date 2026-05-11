@@ -1,7 +1,7 @@
 
 ## WUCUPID
 
-WUCUPID was a student-built matchmaking platform for Washington University in St. Louis students. It let students register with a WUSTL email, complete a personality/preference survey during an open cycle,  ew mutual matches once the matching window opened.
+WUCUPID was a student-built matchmaking platform for Washington University in St. Louis students. It let students register with a WUSTL email, complete a personality/preference survey during an open cycle, get matched with other users, and view mutual matches once the matching window opened.
 
 The live service has been shut down. This repository is preserved as a public technical archive and portfolio project.
 
