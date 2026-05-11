@@ -1,6 +1,6 @@
-# WUCupid
+# WUCUPID
 
-WUCupid was a student-built matchmaking platform for Washington University in St. Louis students. It let students register with a WUSTL email, complete a personality/preference survey during an open cycle, and view mutual matches once the matching window opened.
+WUCUPID was a student-built matchmaking platform for Washington University in St. Louis students. It let students register with a WUSTL email, complete a personality/preference survey during an open cycle, and view mutual matches once the matching window opened.
 
 The live service has been shut down. This repository is preserved as a public technical archive and portfolio project.
 
@@ -98,13 +98,13 @@ Hard constraints determine whether two users are eligible to match at all. Soft 
 
 The final selection uses mutual top-k matching, which means a pair is created only when both users rank each other within their top candidate set.
 
-See [`MATCHING_ALGORITHM.md`](./MATCHING_ALGORITHM.md) for details.
+See MATCHING_ALGORITHM for details.
 
 ## Deployment
 
 The production service is no longer running. The original production deployment used Render for the frontend, backend, and PostgreSQL database.
 
-See [`DEPLOYMENT.md`](./DEPLOYMENT.md) for historical deployment details and local setup notes.
+See DEPLOYMENT.md for historical deployment details and local setup notes.
 
 ## Privacy
 
@@ -120,28 +120,13 @@ This public archive intentionally excludes:
 - SMTP/API credentials
 - Render/Cloudflare/Sentry/OpenAI secrets
 
-See [`PRIVACY_AND_SECURITY.md`](./PRIVACY_AND_SECURITY.md).
+See PRIVACY_AND_SECURITY.MD
 
 ## Shutdown note
 
-WUCupid was shut down after its production run to stop recurring infrastructure costs and preserve the project as an engineering/research artifact.
+WUCUPID was shut down after its production run to stop recurring infrastructure costs and preserve the project as an engineering/research artifact.
 
-See [`SHUTDOWN_NOTE.md`](./SHUTDOWN_NOTE.md).
-
-## Suggested screenshots
-
-Add screenshots here when ready:
-
-```text
-docs/screenshots/
-  landing-page.png
-  survey-flow.png
-  cycle-status.png
-  matches-page.png
-  analytics-dashboard-redacted.png
-```
-
-Do not include screenshots with real user emails, names, Instagram handles, or private dashboard credentials.
+See SHUTDOWN_NOTE.md
 
 ## Local setup
 
