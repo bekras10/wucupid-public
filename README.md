@@ -89,11 +89,7 @@ Flask Backend API
     +--> APScheduler cycle tick
 ```
 
-<<<<<<< HEAD
 See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the detailed system design.
-=======
-See ARTCHITECTURE.md for the detailed system design.
->>>>>>> 402da969eb61ba91ae423a28beb0b3bd8df66f35
 
 ## Matching algorithm
 
@@ -103,21 +99,13 @@ Hard constraints determine whether two users are eligible to match at all. Soft 
 
 The final selection uses mutual top-k matching, which means a pair is created only when both users rank each other within their top candidate set.
 
-<<<<<<< HEAD
 See [`MATCHING_ALGORITHM.md`](./MATCHING_ALGORITHM.md) for details.
-=======
-See MATCHING_ALGORITHM for details.
->>>>>>> 402da969eb61ba91ae423a28beb0b3bd8df66f35
 
 ## Deployment
 
 The production service is no longer running. The original production deployment used Render for the frontend, backend, and PostgreSQL database.
 
-<<<<<<< HEAD
 See [`DEPLOYMENT.md`](./DEPLOYMENT.md) for historical deployment details and local setup notes.
-=======
-See DEPLOYMENT.md for historical deployment details and local setup notes.
->>>>>>> 402da969eb61ba91ae423a28beb0b3bd8df66f35
 
 ## Privacy
 
@@ -133,7 +121,6 @@ This public archive intentionally excludes:
 - SMTP/API credentials
 - Render/Cloudflare/Sentry/OpenAI secrets
 
-<<<<<<< HEAD
 See [`PRIVACY_AND_SECURITY.md`](./PRIVACY_AND_SECURITY.md).
 
 ## Shutdown note
@@ -156,7 +143,7 @@ docs/screenshots/
 ```
 
 Do not include screenshots with real user emails, names, Instagram handles, or private dashboard credentials.
-=======
+
 See PRIVACY_AND_SECURITY.MD
 
 ## Shutdown note
@@ -164,7 +151,6 @@ See PRIVACY_AND_SECURITY.MD
 WUCUPID was shut down after its production run to stop recurring infrastructure costs and preserve the project as an engineering/research artifact.
 
 See SHUTDOWN_NOTE.md
->>>>>>> 402da969eb61ba91ae423a28beb0b3bd8df66f35
 
 ## Local setup
 
