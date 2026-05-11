@@ -129,29 +129,6 @@ WUCupid was shut down after its production run to stop recurring infrastructure 
 
 See [`SHUTDOWN_NOTE.md`](./SHUTDOWN_NOTE.md).
 
-## Suggested screenshots
-
-Add screenshots here when ready:
-
-```text
-docs/screenshots/
-  landing-page.png
-  survey-flow.png
-  cycle-status.png
-  matches-page.png
-  analytics-dashboard-redacted.png
-```
-
-Do not include screenshots with real user emails, names, Instagram handles, or private dashboard credentials.
-
-See PRIVACY_AND_SECURITY.MD
-
-## Shutdown note
-
-WUCUPID was shut down after its production run to stop recurring infrastructure costs and preserve the project as an engineering/research artifact.
-
-See SHUTDOWN_NOTE.md
-
 ## Local setup
 
 This project is preserved primarily as an archive. Local setup may require small edits depending on current package versions and environment.
