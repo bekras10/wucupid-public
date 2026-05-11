@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>API Test</h1>
+    <button id="testButton">Test API</button>
+    <pre id="result" style="margin-top: 20px; padding: 10px; background-color: #f0f0f0;"></pre>
+
+    <script>
+        document.getElementById('testButton').addEventListener('click', async () => {
+            const resultEl = document.getElementById('result');
+            resultEl.textContent = 'Testing API...';
+            
+            try {
+                // Test the API
+                const response = await fetch('http://127.0.0.1:5000/api/cycle/status', {
+                    method: 'GET',
+                    mode: 'cors',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json',
+                    }
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    resultEl.textContent = 'Success! Response:\n' + JSON.stringify(data, null, 2);
+                } else {
+                    resultEl.textContent = `Error: ${response.status} ${response.statusText}`;
+                }
+            } catch (error) {
+                resultEl.textContent = `Fetch Error: ${error.message}`;
+                console.error('API test error:', error);
+            }
+        });
+    </script>
+</body>
+</html> 
